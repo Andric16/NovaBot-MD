@@ -13,7 +13,7 @@ colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
     
 ### `👑 DUDAS SOBRE EL BOT?, CONTACTAME 👑`
 <p align="center">
-<a href="https://github.com/Andr1c8"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=Solo+escr%C3%ADba+si+tiene+dudas." height="40px"
+<a href="https://github.com/Andric16"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=Solo+escr%C3%ADba+si+tiene+dudas." height="40px"
 </p>
     
 <a href="https://api.whatsapp.com/send/?phone=59173315260" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
@@ -29,7 +29,7 @@ colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
 [![blog](https://img.shields.io/badge/Replit-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/SMjCcfuyWQE)
 
-[![Run on Repl.it](https://repl.it/badge/github/Andr1c8/NovaBot-MD)](https://repl.it/github/Andr1c8/NovaBot-MD) 
+[![Run on Repl.it](https://repl.it/badge/github.com/Andric16/AlisaBot-MD)](https://repl.it/github.com/Andric16/AlisaBot-MD) 
 
 ------------------ 
 
@@ -48,7 +48,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg update && pkg upgrade && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn
 ```
 ```bash
-git clone https://github.com/Andr1c8/NovaBot-MD && cd NovaBot-MD && yarn && npm install
+ && cd NovaBot-MD && yarn && npm install
 ```
 ```bash
 npm start
