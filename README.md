@@ -48,7 +48,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg update && pkg upgrade && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn
 ```
 ```bash
- && cd NovaBot-MD && yarn && npm install
+git clone https://github.com/Andric16/AlisaBot-MD && cd NovaBot-MD && yarn && npm install
 ```
 ```bash
 npm start
@@ -102,4 +102,4 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ## `𝙴𝙳𝙸𝚃𝙾𝚁 𝚈 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃`
 
-<a href="https://github.com/Andr1c8"><img src="https://github.com/Andr1c8.png" width="250" height="250" alt="Andr1c8"/></a>
+<a href="https://github.com/Andric16"><img src="https://github.com/Andric16.png" width="250" height="250" alt="Andric16"/></a>
