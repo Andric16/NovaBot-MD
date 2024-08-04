@@ -11,8 +11,8 @@ global.premium = []
 global.blockList = []  
 
 //---------[ NOMBRE/INFO ]---------
-global.botname = "𝙰𝙻𝙸𝚂𝙰𝙱𝙾𝚃-𝙼𝙳"
-global.wm = '🇦 🇱 🇮 🇸 🇦 🇧 🇴 🇹 -🇲 🇩 🌸'
+global.botname = "𝙰𝚈𝙻𝙰-𝚂𝙰𝙽-𝙼𝙳"
+global.wm = '🇦 🇱 🇾 🇦 -🇸 🇦 🇳 -🇲 🇩🌸'
 global.vs = '1.0.7'
 
 //---------[ FECHA/IDIOMAS ]---------
@@ -64,7 +64,7 @@ global.APIKeys = {
 };
  
 //---------[ STICKERS ]---------
-global.packname = "𝙰𝙻𝙸𝚂𝙰𝙱𝙾𝚃-𝙼𝙳"
+global.packname = "𝙰𝚈𝙻𝙰-𝚂𝙰𝙽-𝙼𝙳"
 global.author = `${vs}`
  
 //---------[ IMAGEN ]---------
