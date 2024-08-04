@@ -2,6 +2,7 @@
 // @gata_dios   
 // @Skidy89  
 // @elrebelde21 
+// @andric16
                       
 //--------------------[ IMPORTACIONES ]-----------------------          
 const baileys = require('@whiskeysockets/baileys'); // trabajar a través de descargas por Whatsapp 
@@ -317,10 +318,10 @@ if (!conn.user.mensaje) {
 conn.sendMessage(m.chat, { text: `*Hola @${sender.split`@`[0]} 👋😄 Mi nombre es ${botname} Soy un bot de WhatsApp con multi funcione 👾, registrarte para poder usar mi comando 👌*
 
 *💫 MI INFO:*
-👑 *Mi creador es: wa.me/5492266466080*
+👑 *Mi creador es: wa.me/59173315260*
 👥 Tengo: ${Object.keys(global.db.data.users).length} usuario usandome puedo ser lenta :v
 *🤖 Estoy activa desde:* ${runtime(process.uptime())}
-*⚠️ PD:* No hagan spam del comando o te van baneado
+*⚠️ PD:* No hagan spam del comando o te van bloquear
   
 • *PORFAVOR LEE LAS REGLAS:*
 ${prefix}reglas
@@ -546,7 +547,7 @@ if (media === 'texto')
 m.reply('*Mi jefe no me quiere 😢*') 
 if (media === 'sticker')
 conn.sendFile(m.chat, e, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'ᶜ ᴬᵘᵗᵒᵈᵉˢᶜʳᵘʸᵉ', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
-if (budy.includes(`NovaBot`) || budy.includes(`novabot`)) {
+if (budy.includes(`Ayla-San`) || budy.includes(`Ayla-San`)) {
 m.react(`${pickRandom(['🌟', '👀', '🤑'])}`)}
 if (budy.includes(`Avisos`) || budy.includes(`Atencion`)) {
 m.react(`${pickRandom(['📢', '👀', '⚠️'])}`)}
@@ -558,7 +559,7 @@ let noetiqueta = fs.readFileSync('./src/etiqueta.webp')
 let or = ['texto', 'sticker']; 
 let media = or[Math.floor(Math.random() * 2)]
 if (media === 'sticker')     
-conn.sendFile(m.chat, noetiqueta, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'Yo que?', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+conn.sendFile(m.chat, noetiqueta, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'Hola que hay de nuevo', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'texto')
 await conn.sendMessage(m.chat, {text: `${pickRandom(['*QUE YO QUE?*', 'Que?'])}`}, {quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 if (budy.includes(`Yaoi`)) {
