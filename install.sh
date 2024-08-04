@@ -84,7 +84,7 @@ if pkg install imagemagick -y 2>&1 >/dev/null | grep -E -i -q '(command not foun
 error=$(pkg install imagemagick -y 2>&1 >/dev/null)
 echo -e "\033[0;31mError: $error\033[0m" 
 echo -e "\033[0;34mNo se pudo instalar ImageMagick. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\nIf the error continues, install manually!!\033[0m" 
-echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/elrebelde21/NovaBot-MD\ncd NovaBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
+echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/Andric16/AlisaBot-MD\ncd NovaBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
 exit 1
 else
 
@@ -106,7 +106,7 @@ echo -e "\033[01;32m\033[01m\nTodas las dependencias se han instalado correctame
 echo -e "\e[35m🅘🅝🅢🅣🅐🅛🅐🅝🅓🅞 🅖🅘🅣 🅒🅛🅞🅝🅔\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/elrebelde21/NovaBot-MD.git
+git clone https://github.com/Andric16/AlisaBot-MD.git 
 echo -e "\033[01;32m\033[01mLa clonación se ha descargado e instalado correctamente.\nThe clone has been downloaded and installed successfully.\n\033[0m"
 
 echo -e "\033[01;32m\033[01mCambiando al directorio del repositorio!!\nChanging to the repository directory!!\n\033[0m" 
@@ -158,7 +158,7 @@ menu_ayuda() {
 	read opcion
 	case $opcion in
             01|1)
-                am start -a android.intent.action.VIEW https://chat.whatsapp.com/DVhu9S9Zr7cBFFl26N61U3 &>> /dev/null
+                am start -a android.intent.action.VIEW https://chat.whatsapp.com/KixLH7hCmQm0QKW5huB8gn &>> /dev/null
                 echo -e "${b}[${v1}++${b}]${v} Accediendo al Grupo Oficial\n"
                 
                 ;;
