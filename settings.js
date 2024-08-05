@@ -72,9 +72,10 @@ global.imagen1 = fs.readFileSync('./media/menu.jpg')
 global.imagen2 = fs.readFileSync('./media/menu2.jpg')
 global.imagen3 = fs.readFileSync('./media/menu3.jpg')
 global.noperfil = fs.readFileSync('./media/sinfoto.jpg')
+global.gataVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
 
 //---------[ ENLACE ]---------
-global.md = 'https://github.com/Andric16/AlisaBot-MD.git'
+global.md = 'https://github.com/Andric16/NovaBot-MD.git'
 global.yt = ''
 global.tiktok = ''
 global.faceb = ''
