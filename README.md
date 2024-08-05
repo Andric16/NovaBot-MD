@@ -29,7 +29,7 @@ colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
 [![blog](https://img.shields.io/badge/Replit-Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/SMjCcfuyWQE)
 
-[![Run on Repl.it](https://repl.it/badge/github.com/Andric16/AlisaBot-MD)](https://repl.it/github.com/Andric16/AlisaBot-MD) 
+[![Run on Repl.it](https://repl.it/badge/github.com/Andric16/NovaBot-MD)](https://repl.it/github.com/Andric16/NovaBot-MD) 
 
 ------------------ 
 
@@ -48,7 +48,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg update && pkg upgrade && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn
 ```
 ```bash
-git clone https://github.com/Andric16/AlisaBot-MD && cd NovaBot-MD && yarn && npm install
+git clone https://github.com/Andric16/NovaBot-MD && cd NovaBot-MD && yarn && npm install
 ```
 ```bash
 npm start
